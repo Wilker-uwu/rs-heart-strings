@@ -8,7 +8,7 @@ fn main() {
     let emojis = ["❤️","💘","💝","💖","💗","💓","💞","💕","❣️"];
     
     let lengths: Vec<String> = args().skip(1).collect();
-    if lengths.len() < 1 {
+    if lengths.is_empty() {
         eprintln!("Please numbers of hearts you want ❤️");
         exit(exitcode::USAGE);
     };
