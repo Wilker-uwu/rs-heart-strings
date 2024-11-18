@@ -53,5 +53,5 @@ $ hearts 5 32 16 54
 
 ### Other projects by me
 
-Flight game (in unannounced hiatus): <https://wilker.itch.io/flight-game>
+Flight game (in unannounced hiatus): <https://wilker.itch.io/flight-game>  
 Ko-Fi (drawing comissions): <https://ko-fi.com/wilker_uwu/commissions>
