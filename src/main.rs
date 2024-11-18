@@ -10,7 +10,7 @@ fn main() {
     let lengths: Vec<String> = args().skip(1).collect();
     if lengths.is_empty() {
         eprintln!("Please numbers of hearts you want ❤️");
-        exit(exitcode::USAGE);
+        exit(exitcode::NOINPUT);
     };
 
     for line in lengths {
