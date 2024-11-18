@@ -40,7 +40,7 @@ hearts [HEARTS...]
 ```
 ...where HEARTS is just a number of hearts that you choose! Multiple numbers means multiple lines of hearts!
 
-#### Example:
+### Example:
 
 ```bash
 $ hearts 5 32 16 54
