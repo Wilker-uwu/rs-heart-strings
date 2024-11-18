@@ -1,0 +1,69 @@
+
+# cargo-vet config file
+
+[cargo-vet]
+version = "0.10"
+
+[[exemptions.byteorder]]
+version = "1.5.0"
+criteria = "safe-to-deploy"
+
+[[exemptions.cfg-if]]
+version = "1.0.0"
+criteria = "safe-to-deploy"
+
+[[exemptions.exitcode]]
+version = "1.1.2"
+criteria = "safe-to-deploy"
+
+[[exemptions.getrandom]]
+version = "0.2.15"
+criteria = "safe-to-deploy"
+
+[[exemptions.libc]]
+version = "0.2.164"
+criteria = "safe-to-deploy"
+
+[[exemptions.ppv-lite86]]
+version = "0.2.20"
+criteria = "safe-to-deploy"
+
+[[exemptions.proc-macro2]]
+version = "1.0.89"
+criteria = "safe-to-deploy"
+
+[[exemptions.quote]]
+version = "1.0.37"
+criteria = "safe-to-deploy"
+
+[[exemptions.rand]]
+version = "0.8.5"
+criteria = "safe-to-deploy"
+
+[[exemptions.rand_chacha]]
+version = "0.3.1"
+criteria = "safe-to-deploy"
+
+[[exemptions.rand_core]]
+version = "0.6.4"
+criteria = "safe-to-deploy"
+
+[[exemptions.syn]]
+version = "2.0.87"
+criteria = "safe-to-deploy"
+
+[[exemptions.unicode-ident]]
+version = "1.0.13"
+criteria = "safe-to-deploy"
+
+[[exemptions.wasi]]
+version = "0.11.0+wasi-snapshot-preview1"
+criteria = "safe-to-deploy"
+
+[[exemptions.zerocopy]]
+version = "0.7.35"
+criteria = "safe-to-deploy"
+
+[[exemptions.zerocopy-derive]]
+version = "0.7.35"
+criteria = "safe-to-deploy"

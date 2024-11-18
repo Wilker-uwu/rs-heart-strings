@@ -1,13 +1,21 @@
 [package]
-name = "rs-heart-strings"
-version = "0.1.0"
+name = "heart-strings"
+version = "1.0.0"
 edition = "2021"
-description = "The BEST program to ever exist for your heart's content"
-license = "UNLICENSE"
-license-file = "LICENSE"
+description = "Quickly get random heart emojis to copy!"
+readme ="README.md"
+license = "Unlicense"
+repository = "https://github.com/Wilker-uwu/rs-heart-strings"
+
+categories = ["command-line-utilities", "text-processing"]
+keywords = ["fun", "emoji", "emojis"]
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
 exitcode = "1.1.2"
 rand = "0.8.5"
+
+[[bin]]
+name = "hearts"
+path = "src/main.rs"
